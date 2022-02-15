@@ -2,6 +2,7 @@ require('@nomiclabs/hardhat-waffle')
 const fs = require('fs')
 const PRIVATE_KEY = fs.readFileSync('.secret').toString().trim()
 const URL = fs.readFileSync('.moralisId').toString().trim()
+// Or process.env.NEXT_PUBLIC_RPC_MORALIS
 module.exports = {
     defaultNetwork: 'hardhat',
     networks: {
