@@ -1,0 +1,45 @@
+@import "tailwindcss/base";
+@import url("https://use.typekit.net/zrh4ped.css");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, html {
+    background-color: #F7FA7B;
+    color: #070707;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1, h2, h3 {
+    font-family: new-spirit, serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sans-serif {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.full-height {
+    height: 100vh;
+}
+.half-height {
+    height: 50vh;
+}
+.box {
+    width: 150%;
+    height: 30%;
+    bottom: -10%
+    
+}
+.clip {
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+}
+.initial {
+    overflow: unset;
+}
+
